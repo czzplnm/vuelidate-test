@@ -23,16 +23,9 @@
 
 <script lang="ts">
   import {useVuelidate} from '@vuelidate/core'
-  import {ref} from "vue";
-  // import {maxLength, required} from "@vuelidate/validators";
 
   export default {
     name: 'InputTemplate',
-    // mixins: [VuelidateMixin],
-    // validations(): object {
-    //   console.log('Accessing validations', this.rules);
-    //   return this.rules;
-    // },
 
     props: {
       //validation rules
@@ -58,21 +51,6 @@
     },
 
     setup(props) {
-      // let rules = props.rules;
-      console.log('InputTemplate setup', props.rules);
-      // const password = ref(undefined)
-      // const username = ref(undefined)
-      //
-      // const rules = {
-      //   username: {
-      //     required,
-      //   },
-      //   password: {
-      //     required,
-      //     maxLength: maxLength(49)
-      //   }
-      // }
-
       const v = useVuelidate(props.rules)
 
       return {v}
