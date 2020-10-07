@@ -13,8 +13,8 @@
       />
     </div>
 
-    <div :visible="$v[this.name].$error">
-      <p v-for="$error in $v[this.name].$errors" :key="$error.$property">
+    <div :visible="v[this.name].$error">
+      <p v-for="$error in v[this.name].$errors" :key="$error.$property">
         {{ $error.$message }}
       </p>
     </div>
@@ -22,15 +22,18 @@
 </template>
 
 <script lang="ts">
-  import {VuelidateMixin} from '@vuelidate/core'
+  import {useVuelidate} from '@vuelidate/core'
+  import {ref} from "vue";
+  // import {maxLength, required} from "@vuelidate/validators";
 
   export default {
     name: 'InputTemplate',
-    mixins: [VuelidateMixin],
-    validations(): object {
-      console.log('Accessing validations', this.rules);
-      return this.rules;
-    },
+    // mixins: [VuelidateMixin],
+    // validations(): object {
+    //   console.log('Accessing validations', this.rules);
+    //   return this.rules;
+    // },
+
     props: {
       //validation rules
       name: {
@@ -53,6 +56,28 @@
         required: false
       },
     },
+
+    setup(props) {
+      // let rules = props.rules;
+      console.log('InputTemplate setup', props.rules);
+      // const password = ref(undefined)
+      // const username = ref(undefined)
+      //
+      // const rules = {
+      //   username: {
+      //     required,
+      //   },
+      //   password: {
+      //     required,
+      //     maxLength: maxLength(49)
+      //   }
+      // }
+
+      const v = useVuelidate(props.rules)
+
+      return {v}
+    },
+
     methods: {
       setValue($event: any) {
         this.$emit('update:modelValue', $event.target.value)

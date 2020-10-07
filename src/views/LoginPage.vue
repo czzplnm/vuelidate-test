@@ -11,7 +11,6 @@
   import {ellipse, square, triangle} from 'ionicons/icons';
   import LoginForm from "@/components/form/LoginForm.vue";
 
-
   export default {
     name: 'LoginPage',
     components: {IonContent, IonPage, LoginForm},

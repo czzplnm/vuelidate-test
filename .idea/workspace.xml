@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0752d3c1-d30c-4e12-a7d6-aea1cffd3249" name="Default Changelist" comment="" />
+    <list default="true" id="0752d3c1-d30c-4e12-a7d6-aea1cffd3249" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capacitor.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/templates/InputTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/InputTemplate.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginPage.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iWdVBdzkfY7eBdMTOPEdEj3fGj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -34,11 +55,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/templates" />
       <recent name="$PROJECT_DIR$/src/components/form" />
     </key>
@@ -47,7 +69,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing vuelidate/Ionic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing vuelidate/Ionic" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="469" y="25" key="CommitChangelistDialog2" timestamp="1602097506419">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="469" y="25" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602097506419" />
+    <state x="396" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602097515762">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="396" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602097515762" />
     <state x="100" y="100" width="1400" height="670" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602097309826">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
