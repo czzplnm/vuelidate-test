@@ -52,8 +52,6 @@
     methods: {
       login() {
         console.log('Logging in');
-
-
         this.v.$dirty = true
         this.v.$touch();
         if (this.v.$invalid) {

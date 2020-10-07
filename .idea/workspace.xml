@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0752d3c1-d30c-4e12-a7d6-aea1cffd3249" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/LoginForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/LoginForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/templates/InputTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/InputTemplate.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,17 +79,18 @@
     <MESSAGE value="Testing vuelidate/Ionic" />
     <MESSAGE value="Working template for passing rules" />
     <MESSAGE value="Validation now occurs from parent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation now occurs from parent" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="469" y="25" key="CommitChangelistDialog2" timestamp="1602104247268">
+    <state x="469" y="25" key="CommitChangelistDialog2" timestamp="1602104301518">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="469" y="25" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602104247268" />
-    <state x="396" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602104248252">
+    <state x="469" y="25" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602104301518" />
+    <state x="396" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602104302814">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="396" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602104248252" />
+    <state x="396" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602104302814" />
     <state x="100" y="100" width="1400" height="670" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602097309826">
       <screen x="0" y="0" width="1600" height="870" />
     </state>

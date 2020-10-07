@@ -23,6 +23,7 @@
 
 <script lang="ts">
   import {useVuelidate} from '@vuelidate/core'
+  import {toRefs} from 'vue';
 
   export default {
     name: 'InputTemplate',
@@ -51,7 +52,8 @@
     },
 
     setup(props) {
-      const v = useVuelidate(props.rules)
+      const {modelValue, name, rules} = toRefs(props)
+      const v = useVuelidate(rules, {[name.value]: modelValue})
 
       return {v}
     },
