@@ -3,7 +3,7 @@
     <input-template
         name="username"
         :model-value="this.username"
-        :rules="this.rules"
+        :rules="{ username: this.rules.username}"
         label="Username"
     >
     </input-template>
@@ -11,7 +11,7 @@
     <input-template
         name="password"
         :model-value="this.password"
-        :rules="this.rules"
+        :rules="{ password: this.rules.password}"
         label="Password"
     >
     </input-template>

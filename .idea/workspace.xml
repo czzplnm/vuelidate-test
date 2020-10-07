@@ -11,14 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0752d3c1-d30c-4e12-a7d6-aea1cffd3249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capacitor.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/templates/InputTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/templates/InputTemplate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/LoginForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/LoginForm.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,17 +76,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing vuelidate/Ionic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing vuelidate/Ionic" />
+    <MESSAGE value="Working template for passing rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working template for passing rules" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="469" y="25" key="CommitChangelistDialog2" timestamp="1602097506419">
+    <state x="469" y="25" key="CommitChangelistDialog2" timestamp="1602104125029">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="469" y="25" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602097506419" />
-    <state x="396" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602097515762">
+    <state x="469" y="25" key="CommitChangelistDialog2/0.0.1600.870@0.0.1600.870" timestamp="1602104125029" />
+    <state x="396" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602104126021">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="396" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602097515762" />
+    <state x="396" y="169" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602104126021" />
     <state x="100" y="100" width="1400" height="670" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602097309826">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
